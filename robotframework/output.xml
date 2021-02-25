@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210225 23:23:41.286" rpa="false">
+<suite id="s1" name="Test" source="D:\Flutter Project\Assignment-1\robotframework\test.robot">
+<test id="s1-t1" name="Open Youtube">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20210225 23:23:41.651" level="INFO">Opening browser 'Chrome' to base url 'https://www.youtube.com/watch?v=Nb25l55cLng&amp;ab_channel=%ED%9A%A8%EB%8E%A1Dyeong'.</msg>
+<status status="PASS" starttime="20210225 23:23:41.651" endtime="20210225 23:23:45.386"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>youtube</arg>
+</arguments>
+<status status="PASS" starttime="20210225 23:23:45.387" endtime="20210225 23:23:45.420"></status>
+</kw>
+<status status="PASS" starttime="20210225 23:23:41.650" endtime="20210225 23:23:45.421" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210225 23:23:41.290" endtime="20210225 23:23:45.423"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
